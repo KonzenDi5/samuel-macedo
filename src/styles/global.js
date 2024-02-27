@@ -12,6 +12,7 @@ export const GlobalStyles = createGlobalStyle`
   body,
   #root {
     min-height: 100vh;
+    background: black;
 
     ::-webkit-scrollbar {
       display: none;
@@ -20,13 +21,13 @@ export const GlobalStyles = createGlobalStyle`
 
   #root {
  
-background: rgba(77,77,77,1)
+background: black;
   }
 
   @media (max-width: 768px) {
     #root {
   
-background:  rgba(77,77,77,1) 
+background:  black;
     }
 
   }
